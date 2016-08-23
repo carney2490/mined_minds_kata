@@ -1,8 +1,4 @@
-require "minitest/autorun"
+def mined_minds(number)
+    number
+end
 
-class Testminedmindsfunction <Minitest::Test 
-    def test_1_equals_1
-    	assert_equal(1, 1)
-    end		
-
-end	
