@@ -1,11 +1,11 @@
-x = 0
-while x <= 100
-	if x % 3 == 0
- puts "mined"
-elsif x % 5 == 0
-  puts "minds"
-else 
-	puts x 
-end
-  x = x + 1
+number = 1
+100. times do |   
+| if number % 3==0
+	  puts "Mined"
+	elsif number % 5 == 0
+		puts "minds"
+	else
+	  puts number
+	end
+	number=number +1
 end
