@@ -20,6 +20,9 @@ class Testminedmindsfunction < Minitest::Test
     end
     def test_3_returns_mined
     	assert_equal("Mined", mined_minds(3))
-
    	end
+    def test_5_returns_minds
+        assert_equal("Minds", mined_minds(5)) 
+    end
+
 end
