@@ -25,4 +25,9 @@ class Testminedmindsfunction < Minitest::Test
         assert_equal("Minds", mined_minds(5)) 
     end
 
+
+    def test_3_and_5_returns_Mined_Minds
+    	assert_equal("Mined Minds", mined_minds(15))
+    end
+
 end

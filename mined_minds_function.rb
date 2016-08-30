@@ -3,8 +3,11 @@ def mined_minds(number)
     	"Mined"
     elsif
        number == 5
-    "Minds"
+	    "Minds"	
+    elsif number % 15 == 0
+   		 "Mined Minds"
     else
-    number	
-     end
-end     
+    	number
+    end
+
+end
