@@ -1,3 +1,4 @@
+7.times do
 print "coors"
-Do 7.times
 end
+
