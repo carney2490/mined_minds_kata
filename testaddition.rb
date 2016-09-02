@@ -5,7 +5,9 @@ require_relative "division.rb"
 class Testadditionfunction < Minitest::Test
 	def test_1_equals_1
 		assert_equal(1, 1)
-
+	end	
+	def test_1__plus_1_plus_1_plus_1
+		assert_equal(3,add(1, 1,1,1,1,-2,))
 	end
     def test_1_plus_1
         assert_equal(2, add(1, 1))

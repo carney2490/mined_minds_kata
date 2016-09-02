@@ -1,3 +1,8 @@
-def add(num1, num2)
-    num1 +num2
+def add(*numbers)
+    sum = 0
+    numbers.each do |number|
+    	sum = sum + number 
+    end
+    sum
 end
+  
