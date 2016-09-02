@@ -7,4 +7,10 @@ class TestArrayfunction <Minitest::Test
 
 	end
 
-end	
+ 	def test_3_returns_mined
+	results = array_mined_minds    
+	assert_equal("mined", results[2])
+
+	end
+
+end 
