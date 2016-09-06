@@ -1,0 +1,5 @@
+def test To_Check_For_winner
+winners["1234","2567","1984","3756"]
+My_num "2567"
+assert_equal(true, grandbash(winners_num, my_num))
+end
